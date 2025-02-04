@@ -31,3 +31,9 @@ To get started, follow these steps:
    ```
 
 5. Interact with the API on `http://localhost:3000`
+
+6. Run the tests using the following command:
+
+   ```
+   npm test
+   ```
