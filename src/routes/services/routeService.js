@@ -22,7 +22,6 @@ function buildGraph(routes) {
     if (!graph[to]) graph[to] = {};
 
     graph[from][to] = travel_time_seconds;
-    graph[to][from] = travel_time_seconds; // Assuming bidirectional routes
   });
 
   return graph;

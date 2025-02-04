@@ -16,7 +16,6 @@ async function startServer() {
   app.get("/status", (req, res) => res.sendStatus(200).end());
   app.head("/status", (req, res) => res.sendStatus(200).end());
 
-  // reveal real origin ip behind reverse proxies
   app.enable("trust proxy");
 
   // middlewares
